@@ -6,8 +6,6 @@ let strike = 0;
 let ball = 0;
 let start = false;
 
-
-
 const $startBtn = document.querySelector(".startBtn");
 $startBtn.addEventListener('click', () => {
 
