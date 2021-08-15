@@ -15,6 +15,7 @@ $startBtn.addEventListener('click', () => {
     // make random number
     for (let i = 0; i < 4; i++) {
         while (1) {
+            // 0부터 가능 할 수 있게 해야함. 하지만 0 ==false로 인식되는 문제점
             // 1 ~ 9 랜덤 수 생성
             let randNum = Math.floor(Math.random() * 9 + 1);
             // 만약 중복되는 값이 없다면 pitcher배열에 저장, 없으면 중복 없을때 까지 반복
